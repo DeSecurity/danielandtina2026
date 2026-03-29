@@ -12,8 +12,24 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      display: ['"Cormorant Garamond"', 'serif'],
+      body: ['"Josefin Sans"', 'sans-serif'],
+    },
     extend: {
       colors: {
+        rose: {
+          DEFAULT: "hsl(var(--rose))",
+          light: "hsl(var(--rose-light))",
+          dark: "hsl(var(--rose-dark))",
+        },
+        sage: {
+          DEFAULT: "hsl(var(--sage))",
+          light: "hsl(var(--sage-light))",
+          dark: "hsl(var(--sage-dark))",
+        },
+        gold: "hsl(var(--gold))",
+        cream: "hsl(var(--cream))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
