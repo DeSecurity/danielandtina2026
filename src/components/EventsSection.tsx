@@ -1,11 +1,11 @@
 import { Calendar, MapPin, Clock } from "lucide-react";
 
 const events = [
-  { title: "Bridal Mehndi", pa: "ਮਹਿੰਦੀ", desc: "Traditional henna ceremony for the bride (Bridal Henna by Soha)", date: "July 21, 2026", time: "10:00 AM - 3:00 PM", location: "Auburn, WA" },
-  { title: "Jaggo Ceremony", pa: "ਜੱਗੋ", desc: "Traditional Punjabi ceremony with singing and dancing (Catering by Maharaja)", date: "July 22, 2026", time: "6:30 PM - 11:30 PM", location: "Kent, WA" },
-  { title: "Haldi & Choora", pa: "ਹਲਦੀ ਅਤੇ ਚੂੜਾ", desc: "Turmeric ceremony for both & bangles ceremony for Tina", date: "July 23, 2026", time: "Morning", location: "Auburn, WA" },
-  { title: "Wedding Ceremony", pa: "ਵਿਆਹ", desc: "The main wedding ceremony - Anand Karaj (Catering by Maharaja)", date: "July 24, 2026", time: "9:00 AM - 12:00 PM", location: "Gurudwara, Auburn, WA" },
-  { title: "Reception", pa: "ਰਿਸੈਪਸ਼ਨ", desc: "Celebration dinner and dancing", date: "July 25, 2026", time: "6:00 PM - 11:00 PM", location: "Lakewood, WA" },
+  { title: "Mehndi", pa: "ਮਹਿੰਦੀ", desc: "Traditional henna ceremony for the bride", date: "July 21, 2026", time: "10:00 AM", location: "Auburn, WA" },
+  { title: "Jaggo", pa: "ਜੱਗੋ", desc: "Traditional Punjabi ceremony with singing and dancing", date: "July 22, 2026", time: "6:30 PM", location: "Kent, WA" },
+  { title: "Haldi", pa: "ਹਲਦੀ", desc: "Turmeric ceremony", date: "July 23, 2026", time: "11:00 AM", location: "Auburn, WA" },
+  { title: "Wedding Ceremony", pa: "ਵਿਆਹ", desc: "The main wedding ceremony — Anand Karaj", date: "July 24, 2026", time: "9:00 AM", location: "Gurudwara, Auburn, WA" },
+  { title: "Reception", pa: "ਰਿਸੈਪਸ਼ਨ", desc: "Celebration dinner and dancing", date: "July 25, 2026", time: "6:00 PM", location: "Lakewood, WA" },
 ];
 
 const EventsSection = () => (

@@ -1,4 +1,4 @@
-import { MapPin, Plane, Car, Hotel } from "lucide-react";
+import { MapPin, Plane } from "lucide-react";
 
 const DetailsSection = () => (
   <section id="details" className="py-24 px-4">
@@ -8,7 +8,7 @@ const DetailsSection = () => (
       <div className="section-divider" />
     </div>
 
-    <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+    <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-8">
       {/* Venue */}
       <div className="bg-accent/40 rounded-xl p-8 text-center">
         <MapPin className="mx-auto text-primary mb-3" size={28} />
@@ -22,28 +22,7 @@ const DetailsSection = () => (
         <Plane className="mx-auto text-primary mb-3" size={28} />
         <h3 className="font-display text-xl text-foreground mb-2">Travel Information</h3>
         <p className="font-body text-sm text-muted-foreground">Seattle-Tacoma International Airport (SEA)</p>
-        <p className="font-body text-xs text-muted-foreground">~30 minutes away • Uber/Lyft available</p>
-        <div className="flex items-center justify-center gap-2 mt-2">
-          <Car className="text-secondary" size={14} />
-          <span className="font-body text-xs text-muted-foreground">Free valet parking at venue</span>
-        </div>
-      </div>
-
-      {/* Accommodations */}
-      <div className="bg-accent/40 rounded-xl p-8 text-center">
-        <Hotel className="mx-auto text-primary mb-3" size={28} />
-        <h3 className="font-display text-xl text-foreground mb-2">Accommodations</h3>
-        <div className="space-y-3 mt-4">
-          <div>
-            <p className="font-body text-sm font-medium text-foreground">Hotel Grandeur</p>
-            <p className="font-body text-xs text-muted-foreground">5-star luxury • $199/night</p>
-          </div>
-          <div>
-            <p className="font-body text-sm font-medium text-foreground">Comfort Inn &amp; Suites</p>
-            <p className="font-body text-xs text-muted-foreground">Family-friendly • $129/night</p>
-          </div>
-        </div>
-        <p className="font-body text-xs text-muted-foreground mt-3 italic">Mention "Elizondo-Maju Wedding" • Book by June 1, 2026</p>
+        <p className="font-body text-xs text-muted-foreground">~30 minutes away</p>
       </div>
 
       {/* Dress Code */}

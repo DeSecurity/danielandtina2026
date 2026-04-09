@@ -13,13 +13,13 @@ const RegistrySection = () => (
         <ShoppingCart className="mx-auto text-primary mb-3" size={32} />
         <h3 className="font-display text-xl text-foreground">Amazon</h3>
         <p className="font-body text-xs text-muted-foreground mt-2">Home essentials, electronics, and everyday items</p>
-        <button className="mt-4 font-body text-xs uppercase tracking-wider text-primary border border-primary rounded-full px-6 py-2 hover:bg-primary hover:text-primary-foreground transition-colors">View Registry</button>
+        <a href="https://www.amazon.com/wedding/guest-view/2SM4Z0H93RNG4" target="_blank" rel="noopener noreferrer" className="inline-block mt-4 font-body text-xs uppercase tracking-wider text-primary border border-primary rounded-full px-6 py-2 hover:bg-primary hover:text-primary-foreground transition-colors">View Registry</a>
       </div>
       <div className="bg-background rounded-xl p-8 text-center border border-border hover:shadow-md transition-shadow">
         <Plane className="mx-auto text-primary mb-3" size={32} />
         <h3 className="font-display text-xl text-foreground">Honeymoon Fund</h3>
         <p className="font-body text-xs text-muted-foreground mt-2">Help us create memories on our dream honeymoon</p>
-        <button className="mt-4 font-body text-xs uppercase tracking-wider text-primary border border-primary rounded-full px-6 py-2 hover:bg-primary hover:text-primary-foreground transition-colors">View Registry</button>
+        <a href="https://www.honeyfund.com/site/elizondo-maju-07-24-2026" target="_blank" rel="noopener noreferrer" className="inline-block mt-4 font-body text-xs uppercase tracking-wider text-primary border border-primary rounded-full px-6 py-2 hover:bg-primary hover:text-primary-foreground transition-colors">View Registry</a>
       </div>
     </div>
     <p className="text-center font-display text-sm italic text-muted-foreground mt-10">"ਧੰਨਵਾਦ" — Thank you</p>
