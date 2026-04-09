@@ -7,9 +7,7 @@ const navLinks = [
   { label: "Details", href: "#details" },
   { label: "Registry", href: "#registry" },
   { label: "RSVP", href: "#rsvp" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Music", href: "#music" },
-  { label: "Guestbook", href: "#guestbook" },
+  { label: "FAQ", href: "#faq" },
 ];
 
 const Navigation = () => {

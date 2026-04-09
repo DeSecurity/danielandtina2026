@@ -6,9 +6,7 @@ import EventsSection from "@/components/EventsSection";
 import DetailsSection from "@/components/DetailsSection";
 import RegistrySection from "@/components/RegistrySection";
 import RSVPSection from "@/components/RSVPSection";
-import GallerySection from "@/components/GallerySection";
-import MusicSection from "@/components/MusicSection";
-import GuestbookSection from "@/components/GuestbookSection";
+import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
 const Index = () => (
@@ -21,9 +19,7 @@ const Index = () => (
     <DetailsSection />
     <RegistrySection />
     <RSVPSection />
-    <GallerySection />
-    <MusicSection />
-    <GuestbookSection />
+    <FAQSection />
     <Footer />
   </div>
 );
